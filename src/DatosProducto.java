@@ -1,7 +1,7 @@
 public class DatosProducto {
-    String nombre;
-    int precio;
-    int cantidadProducto;
+    private String nombre;
+    private int precio;
+    private int cantidadProducto;
 
     public DatosProducto(String nombre, int precio, int cantidadProducto){
         this.nombre= nombre;
